@@ -22,5 +22,13 @@ aws s3 cp lambdaDeploymentPackage.zip s3://xxxxxx/lambdaDeploymentPackage.zip
 2. Create a lambda layer to add above zip file with compatibility of python 3.7
 ![screenshot](./createLayer.png)
 3. Create a lambda function to use above layer
+![screenshot](./useeLayer.png)
+```python
+from lxml import etree
+import pandas as pd
+import awswrangler
 
+def lambda_handler(event, context):
+    args = {
+```
 4. Testing! You should be good to go :)
