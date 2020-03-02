@@ -2,7 +2,8 @@
 # Install LXML ETREE library in AWS Lambda
 ## Below are the steps to install lxml etree library in AWS Lambda (python 3.7):
 
-1. Create Zip file for lxml in an EC2 instance [Alternatively, download attached zip file]
+1. Create Zip file for lxml in an EC2 instance [Alternatively, download [attached](./lambdaDeploymentPackage.zip) zip file]
+
 
 ```bash
 sudo yum install python3 -y
